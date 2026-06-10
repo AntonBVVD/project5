@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student GPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Student GPA Calculator</h1>
+    <p>Enter your subject marks and credits to calculate GPA.</p>
+
+    <div id="subjects">
+      <div class="subject">
+        <input type="text" placeholder="Subject Name">
+        <input type="number" placeholder="Marks" class="marks">
+        <input type="number" placeholder="Credit" class="credit">
+      </div>
+    </div>
+
+    <button onclick="addSubject()">Add Subject</button>
+    <button onclick="calculateGPA()">Calculate GPA</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
